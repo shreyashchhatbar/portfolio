@@ -144,6 +144,7 @@ img{
 
 .section__title{
 	font-size: var(--h1-font-size);
+	cursor: default;
 }
 
 .section__title-dot{
@@ -155,6 +156,7 @@ img{
 	display: block;
 	font-size: (--small-font-size);
 	margin-bottom: var(--mb-3);
+	cursor: default;
 }
 
 .section__title,
@@ -323,18 +325,21 @@ img{
 }
 
 .home__title{
-	font-size: var(--big-font-size);	
+	font-size: var(--big-font-size);
+	cursor: default;
 }
 
 .home__subtitle{	
 	font-size: var(--h3-font-size);
 	color: var(--text-color);
 	font-weight: var(--font-medium);
-	margin-bottom: var(--mb-0-75);
+	margin-bottom: var(--mb-0-75);	
+	cursor: default;
 }
 
 .home__description{
 	margin-bottom: var(--mb-2);
+	cursor: default;
 }
 
 .home__scroll{
@@ -430,6 +435,7 @@ img{
 .about__description{
 	text-align: center;
 	margin-bottom: var(--mb-2-5);
+	cursor: default;
 }
 
 .about__info{
@@ -442,10 +448,12 @@ img{
 	font-size: var(--h2-font-size);
 	font-weight: var(--font-semi-bold);
 	color: var(--title-color);
+	cursor: default;
 }
 
 .about__info-name{
 	font-size: var(--smaller-font-size);
+	cursor: default;
 }
 
 .about__info-title,
@@ -509,6 +517,11 @@ img{
 .skills__name{
 	font-size: var(--normal-font-size);
 	font-weight: var(--font-medium);
+	cursor: default;
+}
+
+.skills__number{
+	cursor: default;
 }
 
 .skills__bar,
@@ -608,17 +621,20 @@ img{
 .qualification__title{
 	font-size: var(--normal-font-size);
 	font-weight: var(--font-medium);
+	cursor: default;
 }
 
 .qualification__subtitle{
 	display: inline-block;
 	font-size: var(--small-font-size);
 	margin-bottom: var(--mb-1);
+	cursor: default;
 }
 
 .qualification__calender{
 	font-size: var(--smaller-font-size);
 	color: var(--text-color-light);
+	cursor: default;
 }
 
 .qualification__rounder{
@@ -661,11 +677,15 @@ img{
 	padding: 3.5rem .5rem 1.25rem 1.5rem;
 	border-radius: .25rem;
 	box-shadow: 0 2px 4px rgba(0, 0, 0 , .15);
+	border: 1px;
+	border-style: solid;
+	border-color: var(--container-color);
 	transition: .3s;
 }
 
 .services__content:hover{
 	box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+	border-color: var(--first-color);
 }
 
 .services__icon{
@@ -679,6 +699,7 @@ img{
 	font-size: var(--h3-font-size);
 	margin-bottom: var(--mb-1);
 	font-weight: var(--font-medium);
+	cursor: default;
 }
 
 .services__button{
@@ -721,12 +742,14 @@ img{
 
 .services__model-service{
 	display: flex;
+	cursor: default;
 }
 
 .services__model-title{
 	font-size: var(--h3-font-size);
 	font-weight: var(--font-medium);
 	margin-bottom: var(--mb-1-5);
+	cursor: default;
 }
 
 .services__model-close{
@@ -767,10 +790,12 @@ img{
 .portfolio__title{
 	font-size: var(--h3-font-size);
 	margin-bottom: var(--mb-0-5);
+	cursor: default;
 }
 
 .portfolio__description{
 	margin-bottom: var(--mb-0-75);
+	cursor: default;
 }
 
 .portfolio__button:hover .button__icon{
@@ -822,10 +847,12 @@ img{
 .project__title{
 	font-size: var(--h2-font-size);
 	margin-bottom: var(--mb-0-75);
+	cursor: default;
 }
 
 .project__description{
 	margin-bottom: var(--mb-1-5);
+	cursor: default;
 }
 
 .project__title,
@@ -900,11 +927,13 @@ img{
 .contact__title{
 	font-size: var(--h3-font-size);
 	font-weight: var(--font-medium);
+	cursor: default;
 }
 
 .contact__subtitle{
 	font-size: var(--small-font-size);
 	color: var(--text-color-light);
+	cursor: default;
 }
 
 .contact__content{
@@ -947,10 +976,12 @@ img{
 .footer__title{
 	font-size: var(--h1-font-size);
 	margin-bottom: var(--mb-0-25);
+	cursor: default;
 }
 
 .footer__subtitle{
 	font-size: var(--small-font-size);
+	cursor: default;
 }
 
 .footer__links{
@@ -979,6 +1010,7 @@ img{
 	text-align: center;
 	color: var(--text-color-light);
 	margin-top: var(--mb-3);
+	cursor: default;
 }
 
 .footer__title,
